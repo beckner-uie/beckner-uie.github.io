@@ -8,7 +8,7 @@ body {
   background-color: #363636;
   margin: 10px auto;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
 }
 header {
   width: 100%;
