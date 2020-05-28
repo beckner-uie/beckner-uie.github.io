@@ -107,11 +107,6 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
-  .intro {
-    background-image: url(https://photos1.blogger.com/blogger2/1445/1855/1600/gamepro1.jpg);
-    height: 400px;
-    overflow: auto;
-  }
   .list {
     box-sizing: border-box;
     width: fit-content;
@@ -143,6 +138,27 @@
     margin-top: 5px;
     margin-left: 250px;
     height: 2em;
+  }
+  .about-pic div{
+    width: fit-content;
+  }
+  .about-pic img {
+    height: 400px;
+  }
+  .intro {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    justify-content: center;
+  }
+  .intro section {
+    border: gray 1px solid;
+  }
+  .intro p {
+    padding-left: 10px;
+    width: 40%;
+    display: flex;
+    margin: 0;
   }
 }
 
