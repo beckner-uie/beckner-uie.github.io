@@ -81,8 +81,9 @@ flex-flow: row nowrap;
   padding: 5px 10px;
   margin: 15px;
   height: 140px;
+  text-align: center;
 }
-.portal h3 {
+.portal h1,h2,h3,h4,h5,h6 {
   color: #363636;
 }
 .journal {
