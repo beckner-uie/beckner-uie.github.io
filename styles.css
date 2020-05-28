@@ -2,6 +2,9 @@
   font-family: "Ravenna";
   src: url(../fonts/Ravenna) format(ttf);
 }
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
 body {
   font-family: "Muli", sans-serif;
   color: whitesmoke;
@@ -21,7 +24,8 @@ nav {
   align-content: center;
 }
 header h1 {
-  font-family: 'Ravenna', serif;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 700;
   color: whitesmoke;
   text-align: center;
 }
@@ -62,13 +66,12 @@ flex-flow: row nowrap;
 }
 .navbar .button {
   border: 2px solid gray;
-  margin: 10px auto;
+  margin: 10px 10px 10px 10px;
   width: fit-content;
   text-align: center;
-  font-family: fantasy;
-  padding-top: 7px;
-  padding-left: 5px;
-  padding-right: 5px;
+  text-transform: uppercase;
+  font-family: 'IM Fell English SC', serif;
+  padding: 10px;
 }
 .portal {
   display: flex;
@@ -135,4 +138,145 @@ flex-flow: row nowrap;
   margin-top: 5px;
   margin-left: 250px;
   height: 2em;
+}
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+  font-family: "Muli", sans-serif;
+  color: whitesmoke;
+  background-color: #363636;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  width: 100%;
+  }
+  header {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .page-title {
+    align-self: center;
+    max-width: 400px;
+  }
+  nav {
+    display: flex;
+    align-content: center;
+  }
+  header h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 700;
+    color: whitesmoke;
+    text-align: center;
+  }
+  header h3 {
+    font-family: "Rosarivo";
+    color: whitesmoke;
+    font-style: unset;
+    text-align: center;
+  }
+  p {
+    font-family: "Muli", sans-serif;
+    color: lightgrey;
+    padding-left: 320px;
+    font-size: .9em;
+  }
+  ul {
+    padding: 0px;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .list li {
+    list-style: none;
+    border: 5px solid black;
+    padding: 10px;
+    text-align: left;
+    font-size: x-large;
+    font-family: "Rosarivo", serif;
+    width: 80%;
+    height: 150px;
+    margin: 10px auto;
+    text-transform: none;
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .navbar {
+  flex-flow: row wrap;
+  }
+  .navbar .button {
+    border: 2px solid gray;
+    margin: 5px;
+    width: fit-content;
+    text-align: center;
+    font-size: .8em;
+    text-transform: uppercase;
+    font-family: 'IM Fell English SC', serif;
+    padding: 10px;
+  }
+  .portal {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+  }
+  .portal div{
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    margin: 15px;
+    height: 140px;
+    text-align: center;
+  }
+  .portal h1,h2,h3,h4,h5,h6 {
+    color: #363636;
+  }
+  .journal {
+    width: 140px;
+  }
+  .next {
+    order: -1;
+    width: 350px;
+  }
+  .suggestion {
+    width: 140px;
+  }
+  .list {
+    box-sizing: border-box;
+    width: fit-content;
+    margin: 20px auto;
+  }
+  .description {
+    font-size: 0.6em;
+    font-family: "Muli", sans-serif;
+    padding-right: 10px;
+    color: gray;
+  }
+  .see-more {
+    justify-self: flex-end;
+    align-self: flex-end;
+    text-align: right;
+    text-transform: capitalize;
+    font-size: x-small;
+    font-weight: bold;
+    margin-top: 5px;
+    height: 2em;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
 }
