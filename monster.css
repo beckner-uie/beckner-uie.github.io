@@ -1,3 +1,5 @@
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
 body {
   font-family: "Muli", sans-serif;
   color: whitesmoke;
@@ -6,6 +8,40 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+header {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-around;
+}
+nav {
+  display: flex;
+  align-content: center;
+}
+header h1 {
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 700;
+  color: whitesmoke;
+  text-align: center;
+}
+header h3 {
+  font-family: "Rosarivo";
+  color: whitesmoke;
+  font-style: unset;
+  text-align: center;
+}
+.navbar {
+  flex-flow: row nowrap;
+}
+.navbar .button {
+  border: 2px solid gray;
+  margin: 10px 10px 10px 10px;
+  width: fit-content;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "IM Fell English SC", serif;
+  padding: 10px;
 }
 .monster-card {
   border: 161616 solid 3px;
@@ -36,4 +72,107 @@ body {
   padding: 15px;
   text-align: right;
   font-size: small;
+}
+}
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Muli", sans-serif;
+    color: whitesmoke;
+    background-color: #363636;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  header {
+    width: 100%;
+    max-height: 300px;
+    min-height: 10%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+  }
+  .page-title {
+    align-self: center;
+    max-width: 400px;
+  }
+  nav {
+    display: flex;
+    align-content: center;
+  }
+  header h1 {
+    font-family: "Cinzel Decorative", cursive;
+    font-weight: 700;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+  }
+  header h3 {
+    font-family: "Rosarivo";
+    color: whitesmoke;
+    font-style: unset;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 20px;
+  }
+  .navbar {
+    flex-flow: row wrap;
+    margin: 10px auto;
+  }
+  .navbar .button {
+    border: 2px solid gray;
+    margin: 5px auto;
+    width: fit-content;
+    text-align: center;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-family: "IM Fell English SC", serif;
+    padding: 10px;
+  }
+  .monster-card {
+    border: 161616 solid 3px;
+    background-color: #161616;
+    min-height: 400px;
+    width: 300px;
+    margin: 40px;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .monster-card h3 {
+    font-family: "Rosarivo", serif;
+    font-size: 1.5em;
+    color: whitesmoke;
+    text-align: center;
+  }
+  .monster-card p {
+  }
+  .card-pic {
+    width: 300px;
+  }
+  .description {
+    padding: 15px;
+    color: darkgray;
+  }
+  .date {
+    justify-content: flex-end;
+    padding: 15px;
+    text-align: right;
+    font-size: small;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
 }

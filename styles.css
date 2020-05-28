@@ -5,176 +5,26 @@
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
-body {
-  font-family: "Muli", sans-serif;
-  color: whitesmoke;
-  background-color: #363636;
-  margin: 10px auto;
-  display: flex;
-  flex-flow: column wrap;
-}
-header {
-  width: 100%;
-  display: flex;
-  flex-flow: column wrap;
-  align-content: space-around;
-}
-nav {
-  display: flex;
-  align-content: center;
-}
-header h1 {
-  font-family: 'Cinzel Decorative', cursive;
-  font-weight: 700;
-  color: whitesmoke;
-  text-align: center;
-}
-header h3 {
-  font-family: "Rosarivo";
-  color: whitesmoke;
-  font-style: unset;
-  text-align: center;
-}
-p {
-  font-family: "Muli", sans-serif;
-  color: lightgrey;
-  padding-left: 320px;
-  font-size: .9em;
-}
-ul {
-  padding: 0px;
-  display: flex;
-  flex-flow: column nowrap;
-}
-.list li {
-  list-style: none;
-  border: 5px solid black;
-  padding-left: 260px;
-  padding-top: 40px;
-  text-align: left;
-  font-size: x-large;
-  font-family: "Rosarivo", serif;
-  width: 600px;
-  height: 150px;
-  margin-bottom: 15px;
-  text-transform: none;
-  box-sizing: border-box;
-  background-color: black;
-}
-.navbar {
-flex-flow: row nowrap;
-}
-.navbar .button {
-  border: 2px solid gray;
-  margin: 10px 10px 10px 10px;
-  width: fit-content;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'IM Fell English SC', serif;
-  padding: 10px;
-}
-.portal {
-  display: flex;
-  flex-flow: row nowrap;
-  margin: auto;
-}
-.portal div{
-  border: 2px solid whitesmoke;
-  background-color: whitesmoke;
-  padding: 5px 10px;
-  margin: 15px;
-  height: 140px;
-  text-align: center;
-}
-.portal h1,h2,h3,h4,h5,h6 {
-  color: #363636;
-}
-.journal {
-  width: 140px;
-}
-.next {
-  width: 250px;
-}
-.suggestion {
-  width: 140px;
-}
-.decoration {
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.intro {
-  background-image: url(https://photos1.blogger.com/blogger2/1445/1855/1600/gamepro1.jpg);
-  height: 400px;
-  overflow: auto;
-}
-.list {
-  box-sizing: border-box;
-  width: fit-content;
-  margin: 20px auto;
-}
-.dmg {
-  background-image: url(https://cdn.mos.cms.futurecdn.net/aD2NwcjVo9jpHszfwUs3XT.jpg);
-}
-.phb {
-  background-image: url(https://www.nintenderos.com/wp-content/uploads/2017/01/the-legend-of-zelda-breath-of-the-wild.ddf_.jpg);
-}
-.mm {
-  background-image: url(https://sm.ign.com/t/ign_ap/review/t/the-legend/the-legend-of-zelda-breath-of-the-wild-the-master-trials-dlc_564g.1200.jpg);
-}
-.cg {
-  background-image: url(https://cdn3.whatculture.com/images/2018/04/595dfbd2167b9552-600x338.jpg);
-}
-.description {
-  font-size: 0.6em;
-  font-family: "Muli", sans-serif;
-  padding-right: 10px;
-  color: gray;
-}
-#see-more {
-  text-align: right;
-  text-transform: capitalize;
-  font-size: x-small;
-  font-weight: bold;
-  margin-top: 5px;
-  margin-left: 250px;
-  height: 2em;
-}
-}
-
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-  * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
   body {
-  font-family: "Muli", sans-serif;
-  color: whitesmoke;
-  background-color: #363636;
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 400px;
-  width: 100%;
+    font-family: "Muli", sans-serif;
+    color: whitesmoke;
+    background-color: #363636;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: column wrap;
   }
   header {
     width: 100%;
-    height: 300px;
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
-    align-content: center;
-  }
-  .page-title {
-    align-self: center;
-    max-width: 400px;
+    align-content: space-around;
   }
   nav {
     display: flex;
     align-content: center;
   }
   header h1 {
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: "Cinzel Decorative", cursive;
     font-weight: 700;
     color: whitesmoke;
     text-align: center;
@@ -189,7 +39,166 @@ flex-flow: row nowrap;
     font-family: "Muli", sans-serif;
     color: lightgrey;
     padding-left: 320px;
-    font-size: .9em;
+    font-size: 0.9em;
+  }
+  ul {
+    padding: 0px;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .list li {
+    list-style: none;
+    border: 5px solid black;
+    padding-left: 260px;
+    padding-top: 40px;
+    text-align: left;
+    font-size: x-large;
+    font-family: "Rosarivo", serif;
+    width: 600px;
+    height: 150px;
+    margin-bottom: 15px;
+    text-transform: none;
+    box-sizing: border-box;
+    background-color: black;
+  }
+  .navbar {
+    flex-flow: row nowrap;
+  }
+  .navbar .button {
+    border: 2px solid gray;
+    margin: 10px 10px 10px 10px;
+    width: fit-content;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "IM Fell English SC", serif;
+    padding: 10px;
+  }
+  .portal {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+  }
+  .portal div {
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    margin: 15px;
+    height: 140px;
+    text-align: center;
+  }
+  .portal h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #363636;
+  }
+  .journal {
+    width: 140px;
+  }
+  .next {
+    width: 250px;
+  }
+  .suggestion {
+    width: 140px;
+  }
+  .decoration {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .intro {
+    background-image: url(https://photos1.blogger.com/blogger2/1445/1855/1600/gamepro1.jpg);
+    height: 400px;
+    overflow: auto;
+  }
+  .list {
+    box-sizing: border-box;
+    width: fit-content;
+    margin: 20px auto;
+  }
+  .dmg {
+    background-image: url(https://cdn.mos.cms.futurecdn.net/aD2NwcjVo9jpHszfwUs3XT.jpg);
+  }
+  .phb {
+    background-image: url(https://www.nintenderos.com/wp-content/uploads/2017/01/the-legend-of-zelda-breath-of-the-wild.ddf_.jpg);
+  }
+  .mm {
+    background-image: url(https://sm.ign.com/t/ign_ap/review/t/the-legend/the-legend-of-zelda-breath-of-the-wild-the-master-trials-dlc_564g.1200.jpg);
+  }
+  .cg {
+    background-image: url(https://cdn3.whatculture.com/images/2018/04/595dfbd2167b9552-600x338.jpg);
+  }
+  .description {
+    font-size: 0.6em;
+    font-family: "Muli", sans-serif;
+    padding-right: 10px;
+    color: gray;
+  }
+  #see-more {
+    text-align: right;
+    text-transform: capitalize;
+    font-size: x-small;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 250px;
+    height: 2em;
+  }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Muli", sans-serif;
+    color: whitesmoke;
+    background-color: #363636;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    width: 100%;
+  }
+  header {
+    width: 100%;
+    max-height: 300px;
+    min-height: 10%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .page-title {
+    align-self: center;
+    max-width: 400px;
+  }
+  nav {
+    display: flex;
+    align-content: center;
+  }
+  header h1 {
+    font-family: "Cinzel Decorative", cursive;
+    font-weight: 700;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+  }
+  header h3 {
+    font-family: "Rosarivo";
+    color: whitesmoke;
+    font-style: unset;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 20px;
+  }
+  p {
+    font-family: "Muli", sans-serif;
+    color: lightgrey;
+    padding-left: 320px;
+    font-size: 0.9em;
   }
   ul {
     padding: 0px;
@@ -200,6 +209,8 @@ flex-flow: row nowrap;
     list-style: none;
     border: 5px solid black;
     padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 0%;
     text-align: left;
     font-size: x-large;
     font-family: "Rosarivo", serif;
@@ -213,16 +224,16 @@ flex-flow: row nowrap;
     flex-flow: row wrap;
   }
   .navbar {
-  flex-flow: row wrap;
+    flex-flow: row wrap;
   }
   .navbar .button {
     border: 2px solid gray;
-    margin: 5px;
+    margin: 5px auto;
     width: fit-content;
     text-align: center;
-    font-size: .8em;
+    font-size: 0.8em;
     text-transform: uppercase;
-    font-family: 'IM Fell English SC', serif;
+    font-family: "IM Fell English SC", serif;
     padding: 10px;
   }
   .portal {
@@ -230,26 +241,44 @@ flex-flow: row nowrap;
     flex-flow: row wrap;
     margin: auto;
   }
-  .portal div{
+  .portal div {
     border: 2px solid whitesmoke;
     background-color: whitesmoke;
     padding: 5px 10px;
-    margin: 15px;
+    margin: 10px auto;
     height: 140px;
     text-align: center;
+    display: flex;
+    flex-flow: column wrap;
   }
-  .portal h1,h2,h3,h4,h5,h6 {
+  .portal h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: #363636;
   }
+  .portal button {
+    width: 80%;
+    height: 30%;
+    border: solid 2px gray;
+    align-self: center;
+    margin-top: 20%;
+  }
+  .portal h4 {
+    margin-top: 8%;
+  }
   .journal {
-    width: 140px;
+    width: 40%;
   }
   .next {
     order: -1;
-    width: 350px;
+    max-width: 400px;
+    min-width: 90%;
   }
   .suggestion {
-    width: 140px;
+    width: 40%;
   }
   .list {
     box-sizing: border-box;
@@ -277,6 +306,6 @@ flex-flow: row nowrap;
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
-    background-color: #F5CF8E; /* Yellow */
+    background-color: #f5cf8e; /* Yellow */
   }
 }
