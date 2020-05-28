@@ -23,6 +23,7 @@
     display: flex;
     align-content: center;
   }
+  
   header h1 {
     font-family: "Cinzel Decorative", cursive;
     font-weight: 700;
@@ -71,7 +72,20 @@
     text-align: center;
     text-transform: uppercase;
     font-family: "IM Fell English SC", serif;
+    padding: 8px 0px;
+  }
+  .button a {
+    text-decoration: none;
     padding: 10px;
+    width: 100%;
+    color: whitesmoke;
+  }
+  .button a:hover {
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    color: whitesmoke;
+    background-color: gray;
   }
   .portal {
     display: flex;
@@ -244,13 +258,25 @@
   }
   .navbar .button {
     border: 2px solid gray;
-    margin: 5px auto;
+    margin: 10px 10px 10px 10px;
     width: fit-content;
     text-align: center;
-    font-size: 0.8em;
     text-transform: uppercase;
     font-family: "IM Fell English SC", serif;
+    padding: 8px 0px;
+  }
+  .button a {
+    text-decoration: none;
     padding: 10px;
+    width: 100%;
+    color: whitesmoke;
+  }
+  .button a:hover {
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    color: whitesmoke;
+    background-color: gray;
   }
   .portal {
     display: flex;
