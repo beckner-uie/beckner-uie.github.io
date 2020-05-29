@@ -16,67 +16,9 @@
         color: whitesmoke;
         background-color: #363636;
       }
-      header {
-        width: 100%;
-        max-height: 30%;
-        min-height: 10%;
-        display: flex;
-        flex-flow: column wrap;
-        align-content: center;
-        margin-bottom: 15px;
-      }
       .bio div {
           width: 90%;
           margin: 0px;
-      }
-      .page-title {
-        align-self: center;
-        max-width: 400px;
-      }
-      nav {
-        display: flex;
-        align-content: center;
-      }
-      header h1 {
-        font-family: "Cinzel Decorative", cursive;
-        font-weight: 700;
-        color: whitesmoke;
-        text-align: center;
-        padding: 5px;
-      }
-      header h3 {
-        font-family: "Rosarivo";
-        color: whitesmoke;
-        font-style: unset;
-        text-align: center;
-        padding: 5px;
-        padding-bottom: 20px;
-      }
-      .navbar {
-        flex-flow: row wrap;
-        max-width: 90%;
-      }
-      .navbar .button {
-        border: 2px solid gray;
-        margin: 10px 10px 10px 10px;
-        width: fit-content;
-        text-align: center;
-        text-transform: uppercase;
-        font-family: "IM Fell English SC", serif;
-        padding: 8px 0px;
-      }
-      .button a {
-        text-decoration: none;
-        padding: 10px;
-        width: 100%;
-        color: whitesmoke;
-      }
-      .button a:hover {
-        text-decoration: none;
-        padding: 10px;
-        width: 100%;
-        color: whitesmoke;
-        background-color: gray;
       }
       h4 {
           font-family: "Rosarivo";
@@ -213,7 +155,6 @@
         font-family: "Muli", sans-serif;
         color: whitesmoke;
         background-color: #363636;
-        margin: 10px auto;
       }
       header {
         width: 100%;

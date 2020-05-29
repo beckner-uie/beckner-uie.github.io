@@ -4,15 +4,13 @@
       font-family: "Muli", sans-serif;
       color: whitesmoke;
       background-color: #363636;
-      margin: 10px auto;
-      display: flex;
-      flex-flow: column wrap;
     }
     header {
       width: 100%;
       display: flex;
       flex-flow: column wrap;
       align-content: space-around;
+      margin: 10px auto;
     }
     nav {
       display: flex;

@@ -5,6 +5,14 @@
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
+  body {
+    font-family: "Muli", sans-serif;
+    color: whitesmoke;
+    background-color: #363636;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: column wrap;
+  }
   p {
     font-family: "Muli", sans-serif;
     color: lightgrey;
