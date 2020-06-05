@@ -109,22 +109,24 @@
     width: fit-content;
   }
   .about-pic img {
-    height: 400px;
+    width: 350px;
   }
-  .intro {
+  section{
     display: flex;
-    flex-flow: row nowrap;
-    align-content: center;
+    flex-flow: row wrap;
     justify-content: center;
+    width: 70%;
+    margin: auto;
   }
-  .intro section {
-    border: gray 1px solid;
+  .intro div {
+    display: block;
+    width: fit-content;
+    max-width: 450px;
   }
   .intro p {
-    padding-left: 10px;
-    width: 40%;
     display: flex;
-    margin: 0;
+    margin-top: 0px;
+    padding: 0px 25px;
   }
 }
 
