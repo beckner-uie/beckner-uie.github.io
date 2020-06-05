@@ -10,8 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Rosarivo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Contact DM</title>
     <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="contact.css"/>
 </head>
 <body>
     <header class="bio">
@@ -27,5 +28,41 @@
           <div class="button"><a href="contact.html">Contact DM</a></div>
         </nav>
       </header>
+      <form action="https://formspree.io/meqrgrnd" method="POST" class="contact-form">
+        <div class="form-row">
+          <label for="player-name">Player Name</label>
+          <input id="player-name" name="player-name" type="text"/>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email"/>
+        </div>
+        <div class="form-row dropdown">
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject">
+            <option value="rules">Rules</option>
+            <option value="schedule">Schedule</option>
+            <option value="character">My Character</option>
+            <option value="players">Other Players</option>
+            <option value="roll20">Roll20</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
+        <fieldset class="legacy-form-row">
+          <legend>Do you want this conversation 
+            to be avaliable to other players?</legend>
+            <input id="private" name="privacy" type="radio" value="private" checked/>
+            <label for="private" class="radio-label">No, please keep this Private</label>
+            <input id="public" name="privacy" type="radio" value="public"/>
+            <label for="public" class="radio-label">Yes, I want this to be Public</label>
+        </fieldset>
+        <div class="submit">
+          <button>Submit</button>
+        </div>
+      </form>
 </body>
 </html>

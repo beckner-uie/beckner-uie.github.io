@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "Ravenna";
+    src: url(../fonts/Ravenna) format(ttf);
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      font-family: "Muli", sans-serif;
+      color: whitesmoke;
+      background-color: #363636;
+      margin: 10px auto;
+      display: flex;
+      flex-flow: column wrap;
+    }
+    .contact-form{
+        background-color:#222222;
+        border: gray solid 2px;
+        width: 30%;
+        padding: 20px;
+        padding-right: 70px;
+        margin: 20px auto;
+    }
+
+    .form-row {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: flex-end;
+        flex-flow: row wrap;
+    }
+    .dropdown {
+        justify-content: space-around;
+    }
+    .form-row label{
+        margin-right: 15px;
+        justify-self: flex-end;
+    }
+
+    .form-row input[type="text"], .form-row input[type="email"]{
+        background-color: white;
+        border: none;
+        border-radius: 2px;
+        width: 70%;
+        padding: 5px;
+        font-size: medium;
+    }
+    .dropdown input{
+        background-color: white;
+        border: none;
+        border-radius: 2px;
+        width: 100%;
+        padding: 5px;
+    }
+    .form-row textarea {
+        background-color: white;
+        border: none;
+        border-radius: 2px;
+        width: 70%;
+        padding: 5px;
+        font-size: medium;
+        min-height: 200px;
+        resize: none;
+        font-family: "Muli", sans-serif;
+    }
+
+    .form-row input[type="text"]:invalid, .form-row input[type="email"]:invalid {
+        border: 2px solid lightcoral;
+        box-shadow: none;
+    }
+
+    .legacy-form-row {
+        border: none;
+        margin-left: 25%;
+        margin-bottom: 30px;
+        display: box;
+        width: 70%;
+    }
+    .legacy-form-row legend {
+        margin-bottom: 5px;
+        float: left;
+    }
+    .legacy-form-row .radio-label, .legacy-form-row input[type="radio"] {
+        font-size: medium;
+        margin: 10px;
+        padding: 0px;
+        float: left;
+    }
+    .legacy-form-row input[type="radio"] {
+        margin-top: 15px;
+    }
+    .submit {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 30px;
+    }
+    .submit button {
+        width: 100px;
+        height: 40px;
+        padding: 5px;
+        font-size: medium;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        background-color: lightgray;
+        text-align: center;
+        font-family: "Muli";
+    }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form{
+        background-color:#222222;
+        border: gray solid 2px;
+        width: 80%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .form-row {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: column wrap;
+    }
+    .form-row label{
+        margin-bottom: 5px;
+    }
+
+    .form-row input[type="text"], .form-row input[type="email"]{
+        background-color: white;
+        border: none;
+        border-radius: 2px;
+        width: 100%;
+        padding: 5px;
+        font-size: medium;
+    }
+    .form-row input[type="select"] {
+        background-color: white;
+        border: none;
+        border-radius: 2px;
+        width: 100%;
+        padding: 5px;
+    }
+    .form-row textarea {
+        background-color: white;
+        border: none;
+        border-radius: 2px;
+        width: 100%;
+        padding: 5px;
+        font-size: medium;
+        min-height: 200px;
+        resize: none;
+        font-family: "Muli", sans-serif;
+    }
+
+    .form-row input[type="text"]:invalid, .form-row input[type="email"]:invalid {
+        border: 2px solid lightcoral;
+        box-shadow: none;
+    }
+
+    .legacy-form-row {
+        border: none;
+        margin-bottom: 30px;
+    }
+    .legacy-form-row legend {
+        margin-bottom: 5px;
+    }
+    .legacy-form-row .radio-label {
+        font-size: medium;
+        margin: 10px;
+        padding: 0px;
+    }
+    .legacy-form-row input {
+        margin-top: 25px;
+    }
+    .submit {
+        display: flex;
+        justify-content: center;
+    }
+    .submit button {
+        width: 100px;
+        height: 40px;
+        padding: 5px;
+        font-size: medium;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        margin: auto;
+        background-color: lightgray;
+        text-align: center;
+        font-family: "Muli";
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #f5cf8e; /* Yellow */
+    }
+  }
+  
