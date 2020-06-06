@@ -1,23 +1,53 @@
   * {
       box-sizing: border-box;
   }
-  .description .button a {
+  ul {
+    padding: 0px;
+    display: flex;
+    flex-flow: column nowrap;
+    padding-left: 0px;
+  }
+  section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 90%;
+  }
+  .list li {
+    list-style: none;
+    border: 5px solid black;
+    padding-left: 280px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: x-large;
+    font-family: "Rosarivo", serif;
+    width: 600px;
+    height: 150px;
+    margin-bottom: 15px;
+    text-transform: none;
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  .see-more a {
     text-decoration: none;
     padding: 0px 10px;
     width: 100%;
     color: whitesmoke;
   }
-  .description .button a:hover {
+  .see-more a:hover {
     text-decoration: none;
     padding: 0px 10px;
     width: 100%;
     color: whitesmoke;
     background-color: gray;
   }
-  .description .button {
+  .see-more {
     border: 2px solid gray;
     width: fit-content;
     text-align: center;
+    font-size: 0.6em;
     text-transform: capitalize;
     font-family: "IM Fell English SC", serif;
     padding: 0px;
@@ -29,7 +59,43 @@
       display: flex;
       align-items: flex-start;
       flex-flow: row wrap;
+      text-align: left;
+      font-size: 0.6em;
+      font-family: "Muli", sans-serif;
+      color: gray;
   }
   li {
       position: relative;
   }
+  .decoration {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .list {
+    box-sizing: border-box;
+    width: fit-content;
+    margin: 20px auto;
+  }
+  .dmg {
+    background-image: url(https://cdn.mos.cms.futurecdn.net/aD2NwcjVo9jpHszfwUs3XT.jpg);
+  }
+  .phb {
+    background-image: url(https://www.nintenderos.com/wp-content/uploads/2017/01/the-legend-of-zelda-breath-of-the-wild.ddf_.jpg);
+  }
+  .mm {
+    background-image: url(https://sm.ign.com/t/ign_ap/review/t/the-legend/the-legend-of-zelda-breath-of-the-wild-the-master-trials-dlc_564g.1200.jpg);
+  }
+  .cg {
+    background-image: url(https://cdn3.whatculture.com/images/2018/04/595dfbd2167b9552-600x338.jpg);
+  }
+  /* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .see-more {
+    padding-top: 4px;
+  }
+}

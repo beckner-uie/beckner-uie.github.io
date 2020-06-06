@@ -19,26 +19,6 @@
     padding-left: 320px;
     font-size: 0.9em;
   }
-  ul {
-    padding: 0px;
-    display: flex;
-    flex-flow: column nowrap;
-  }
-  .list li {
-    list-style: none;
-    border: 5px solid black;
-    padding-left: 260px;
-    padding-top: 40px;
-    text-align: left;
-    font-size: x-large;
-    font-family: "Rosarivo", serif;
-    width: 600px;
-    height: 150px;
-    margin-bottom: 15px;
-    text-transform: none;
-    box-sizing: border-box;
-    background-color: black;
-  }
   .portal {
     display: flex;
     flex-flow: row nowrap;
@@ -69,54 +49,11 @@
   .suggestion {
     width: 140px;
   }
-  .decoration {
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  .list {
-    box-sizing: border-box;
-    width: fit-content;
-    margin: 20px auto;
-  }
-  .dmg {
-    background-image: url(https://cdn.mos.cms.futurecdn.net/aD2NwcjVo9jpHszfwUs3XT.jpg);
-  }
-  .phb {
-    background-image: url(https://www.nintenderos.com/wp-content/uploads/2017/01/the-legend-of-zelda-breath-of-the-wild.ddf_.jpg);
-  }
-  .mm {
-    background-image: url(https://sm.ign.com/t/ign_ap/review/t/the-legend/the-legend-of-zelda-breath-of-the-wild-the-master-trials-dlc_564g.1200.jpg);
-  }
-  .cg {
-    background-image: url(https://cdn3.whatculture.com/images/2018/04/595dfbd2167b9552-600x338.jpg);
-  }
-  .description {
-    font-size: 0.6em;
-    font-family: "Muli", sans-serif;
-    padding-right: 10px;
-    color: gray;
-  }
-  #see-more {
-    text-align: right;
-    text-transform: capitalize;
-    font-size: x-small;
-    font-weight: bold;
-    margin-top: 5px;
-    margin-left: 250px;
-    height: 2em;
-  }
   .about-pic div{
     width: fit-content;
   }
   .about-pic img {
     width: 350px;
-  }
-  section{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 70%;
-    margin: auto;
   }
   .intro div {
     display: block;
